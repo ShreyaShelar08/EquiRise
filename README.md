@@ -163,26 +163,16 @@ Built on SEBI's **CCPS (Compulsorily Convertible Preference Share)** framework w
 equirise/
 ├── src/
 │   ├── components/
-│   │   ├── Discover/
-│   │   │   ├── CampaignCard.jsx          # Startup campaign cards
-│   │   │   ├── CampaignModal.jsx         # Detail modal (Milestones/Investors/Risk)
-│   │   │   └── ProgressBar.jsx           # Funding progress indicator
-│   │   ├── DueDiligence/
-│   │   │   ├── ScoreEngine.jsx           # Main NLP scoring interface
-│   │   │   ├── DimensionBars.jsx         # Animated score visualisation
-│   │   │   ├── SignalBadges.jsx          # Red flag / green signal badges
-│   │   │   └── SamplePlanLoader.jsx      # Pre-filled business plan loader
-│   │   ├── Portfolio/
-│   │   │   ├── HoldingsTable.jsx         # Per-startup investment breakdown
-│   │   │   ├── ReturnsSummary.jsx        # P&L and unrealised gains
-│   │   │   └── SEBILimitTracker.jsx      # Annual investment cap progress
-│   │   ├── Compliance/
-│   │   │   ├── ChecklistItem.jsx         # Individual compliance row
-│   │   │   └── CompliancePanel.jsx       # Full SEBI checklist view
-│   │   └── shared/
-│   │       ├── Navbar.jsx
-│   │       ├── TabBar.jsx
-│   │       └── Badge.jsx
+│   │   ├── Discover.jsx
+│   │   │   
+│   │   ├── DueDiligence.jsx
+│   │   │  
+│   │   ├── Portfolio.jsx
+│   │   │  
+│   │   ├── Compliance.jsx
+│   │   │  
+│   │   └── Navbar.jsx
+│   │       
 │   ├── pages/
 │   │   ├── DiscoverPage.jsx
 │   │   ├── DueDiligencePage.jsx
@@ -197,7 +187,7 @@ equirise/
 │   │   ├── escrow.js                     # Razorpay escrow calls
 │   │   └── kyc.js                        # DigiLocker KYC service
 │   ├── data/
-│   │   └── campaigns.js                  # Seed data for 4 startup campaigns
+│   │   └── startups.js                  # Seed data for 4 startup campaigns
 │   ├── App.jsx
 │   └── main.jsx
 ├── public/
@@ -337,26 +327,3 @@ EquiRise is a **prototype** built for educational and demonstration purposes. It
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
-
----
-
-<div align="center">
-
-<br/>
-
-
-*AI & Data Science · Late G. N. Sapkal College of Engineering, Nashik*
-
-<br/>
-
-*Empowering Bharat's entrepreneurs. One micro-investment at a time.*
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-028090?style=for-the-badge&logo=github)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-02C39A?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
-
-</div>
